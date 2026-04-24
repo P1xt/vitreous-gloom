@@ -65,3 +65,25 @@ The project is developed in "Lego-brick" phases to ensure a playable prototype a
 * **Primary Target:** Web (HTML5/Canvas).
 * **Secondary Target:** Progressive Web App (PWA) for offline capability.
 * **Build Tool:** Vite + TypeScript for fast hot-reloading and optimized production bundles.
+
+## 6. Project Documentation
+
+To understand the full scope, technical architecture, and legal constraints of **Vitreous Gloom**, please refer to the following documents:
+
+| Document | Link | Description | Role in Project |
+| :--- | :--- | :--- | :--- |
+| **Legal Notice** | [COPYRIGHT.md](./COPYRIGHT.md) | Non-commercial usage terms and ownership credits. | Defines usage rights and concept attribution. |
+| **Game Design** | [game-design.md](./documentation/game-design.md) | Deep dive into theme, "Vitromancy," and core gameplay loop. | The creative blueprint for the experience. |
+| **Technical Spec** | [technical-specification.md](./documentation/technical-specification.md) | System architecture and event-driven modular design. | The engineering roadmap for implementation. |
+| **Data Schema** | [data-schema.md](./documentation/data-schema.md) | Core TypeScript interfaces and JSON entity structures. | Ensures "Lego-brick" compatibility across modules. |
+| **UI/UX Wireframes** | [ui-ux-wireframes.md](./documentation/ui-ux-wireframes.md) | Visual layouts for the Sanctum, Extraction, and Puzzle scenes. | Defines the user flow and interface hierarchy. |
+| **Asset List** | [asset-list.md](./documentation/asset-list.md) | Comprehensive "To-Do" checklist for sprites, lights, and audio. | Tracks the visual and auditory production progress. |
+| **Testing Strategy** | [testing-strategy.md](./documentation/testing-strategy.md) | Unit, integration, and system test requirements for each phase. | Ensures stability and verifies crucial use cases. |
+
+---
+
+### Commitment to Quality
+This project utilizes **Conventional Commits** and a **Sprint-Based Modular Architecture**. Each document above is a living part of the development lifecycle, ensuring that the final "Technical Demo" is both performant and faithful to the original concept.
+
+**Ready to explore the code?**
+Head over to the `src/` directory to see the "Lego bricks" in action, or start with **Sprint 1** in the [Technical Specification](./documentation/technical-specification.md).
